@@ -1,6 +1,6 @@
 <template>
   <div>
-    this is home
+    <h1>Home</h1>
     <MainTable />
   </div>
 </template>
