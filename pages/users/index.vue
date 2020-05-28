@@ -14,11 +14,12 @@
         </v-col>
       </v-row>
     </v-container>
+    <nuxt-child />
   </div>
 </template>
 
 <script>
-import UserCard from '../components/UserCard'
+import UserCard from '../../components/UserCard'
 
 export default {
   components: {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card>
+    <v-card :to="'/users/' + user.id">
       <v-list-item two-line>
         <v-avatar color="indigo" class="mr-5">{{ initial }}</v-avatar>
         <v-list-item-content>
