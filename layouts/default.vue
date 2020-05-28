@@ -86,6 +86,11 @@ export default {
           icon: 'mdi-home',
           title: 'Home',
           to: '/home'
+        },
+        {
+          icon: 'mdi-account',
+          title: 'Users',
+          to: '/users'
         }
       ],
       miniVariant: false,
