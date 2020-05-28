@@ -2,7 +2,14 @@
   <div>
     <v-container>
       <v-row>
-        <v-col v-for="user in users" :key="user.id" :cols="4">
+        <v-col
+          v-for="user in users"
+          :key="user.id"
+          xs="12"
+          sm="12"
+          md="6"
+          lg="4"
+        >
           <UserCard :user="user" />
         </v-col>
       </v-row>
